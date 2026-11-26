@@ -1,0 +1,10 @@
+2026-11-26 10:00:01 INFO Application started
+2026-11-26 10:00:05 INFO User login successful
+2026-11-26 10:01:10 ERROR Database connection timeout
+2026-11-26 10:01:12 ERROR Payment processing failed
+2026-11-26 10:01:15 ERROR Order creation failed
+2026-11-26 10:01:20 WARNING Retry attempt failed
+2026-11-26 10:01:25 ERROR Service unavailable
+2026-11-26 10:01:30 ERROR Database connection timeout
+2026-11-26 10:01:35 ERROR Database connection timeout
+2026-11-26 10:01:40 ERROR Database connection timeout

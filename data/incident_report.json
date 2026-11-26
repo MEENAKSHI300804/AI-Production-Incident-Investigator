@@ -1,0 +1,15 @@
+{
+    "total_logs": 10,
+    "total_errors": 7,
+    "error_frequency": {
+        "Database connection timeout": 4,
+        "Payment processing failed": 1,
+        "Order creation failed": 1,
+        "Service unavailable": 1
+    },
+    "first_observed_error": "2026-11-26 10:01:10 ERROR Database connection timeout",
+    "most_frequent_error": "Database connection timeout",
+    "occurrences": 4,
+    "duration_seconds": 30.0,
+    "investigation_note": "Most frequent error requires further investigation."
+}
