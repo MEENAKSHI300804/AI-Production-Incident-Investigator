@@ -1,0 +1,49 @@
+{
+    "incident_file": "data/incident_001.log",
+    "total_errors": 7,
+    "repeated_errors": {
+        "Database connection timeout": 4
+    },
+    "time_based_patterns": [
+        {
+            "starting_error": "2026-11-26 10:01:10 ERROR Database connection timeout",
+            "related_errors": [
+                "2026-11-26 10:01:12 ERROR Payment processing failed",
+                "2026-11-26 10:01:15 ERROR Order creation failed"
+            ]
+        },
+        {
+            "starting_error": "2026-11-26 10:01:12 ERROR Payment processing failed",
+            "related_errors": [
+                "2026-11-26 10:01:15 ERROR Order creation failed"
+            ]
+        },
+        {
+            "starting_error": "2026-11-26 10:01:15 ERROR Order creation failed",
+            "related_errors": [
+                "2026-11-26 10:01:25 ERROR Service unavailable"
+            ]
+        },
+        {
+            "starting_error": "2026-11-26 10:01:25 ERROR Service unavailable",
+            "related_errors": [
+                "2026-11-26 10:01:30 ERROR Database connection timeout",
+                "2026-11-26 10:01:35 ERROR Database connection timeout"
+            ]
+        },
+        {
+            "starting_error": "2026-11-26 10:01:30 ERROR Database connection timeout",
+            "related_errors": [
+                "2026-11-26 10:01:35 ERROR Database connection timeout",
+                "2026-11-26 10:01:40 ERROR Database connection timeout"
+            ]
+        },
+        {
+            "starting_error": "2026-11-26 10:01:35 ERROR Database connection timeout",
+            "related_errors": [
+                "2026-11-26 10:01:40 ERROR Database connection timeout"
+            ]
+        }
+    ],
+    "investigation_note": "These patterns are investigation clues, not confirmed root causes."
+}
